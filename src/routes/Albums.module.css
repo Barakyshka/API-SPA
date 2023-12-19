@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: darkred;
+  transition: color 0.3s ease;
+  margin-left: 1rem;
+}
+
+.link:hover {
+  color: darkgreen;
+}
+
+.albumItem {
+  margin-left: 2rem;
+}

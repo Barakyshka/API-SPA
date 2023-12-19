@@ -1,0 +1,36 @@
+.albumTitle {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #63a2af;
+}
+
+.albumTitle::first-letter {
+  text-transform: uppercase;
+}
+
+.creator {
+  color: #888;
+  text-decoration: underline;
+}
+
+.creator:hover {
+  color: #3498db;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.photos img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.photos img:hover {
+  transform: scale(1.1);
+}

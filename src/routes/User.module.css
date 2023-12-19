@@ -1,0 +1,31 @@
+.userInfo,
+.userInfo a {
+  font-size: 1.2rem;
+  color: #787878;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.albumList {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.albumListItem {
+  color: #14aac8;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.albumListItem:hover {
+  color: #e67e22;
+  cursor: pointer;
+}
